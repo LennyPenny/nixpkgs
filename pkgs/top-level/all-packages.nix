@@ -27476,6 +27476,8 @@ with pkgs;
 
   spleen = callPackage ../data/fonts/spleen { };
 
+  spleeter = with python3Packages; toPythonApplication spleeter;
+
   stilo-themes = callPackage ../data/themes/stilo { };
 
   sudo-font = callPackage ../data/fonts/sudo { };

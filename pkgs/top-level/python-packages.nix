@@ -15009,6 +15009,8 @@ self: super: with self; {
 
   spidev = callPackage ../development/python-modules/spidev { };
 
+  spleeter = callPackage ../development/python-modules/spleeter { };
+
   splinter = callPackage ../development/python-modules/splinter { };
 
   spotifyaio = callPackage ../development/python-modules/spotifyaio { };
